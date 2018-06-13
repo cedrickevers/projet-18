@@ -1,0 +1,49 @@
+.container-12{
+  display:flex;
+  flex-direction:column-reverse;
+}
+li{
+  display:inline-block;
+  margin:1rem;
+}
+.item-6c ul li::before{/*corner li*/
+  content: '-';
+ }
+ /* ==================================================
+  * #MD VIEW
+   * ==================================================
+  */
+@media screen and (min-width: 600px){
+  .container-12{
+    display:flex;
+    flex-direction:row;
+    }
+    li{
+    display:block;
+    margin:0rem;
+  }
+  .item-8c > .item-3c{
+    flex: 1;/*all item in same size*/
+  }
+   /*lire la suite*/
+  .c3{
+    position: absolute;/*to item-6c*/
+    background-color: white;
+    bottom:1rem;
+  }
+  .container-12 > .item-4c{/*header vintage meubles ariticles-lg*/
+    flex-basis: calc(100% * 4 /12 - 3rem)  ;
+  }
+  .container-12 > .item-4c{/*header vintage meubles ariticles-lg*/
+    flex-basis: calc(100% * 4 /12 - 3rem)  ;
+  }
+}
+@media screen and (min-width: 1024px){
+
+.slider {
+background: url(../content/slide.jpg) no-repeat fixed center top  ;
+height:35rem;
+ }
+}
+
+

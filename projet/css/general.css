@@ -1,0 +1,173 @@
+/* ==================================================
+ * #STYLES  GENERAL
+ * ==================================================
+*/
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  color: #000;
+  background-color: #FFF;
+  margin: 0px;
+  padding: 0px;
+  font: 1.4rem Arial, Verdana, Helvetica, sans-serif;
+}
+img{
+  width: 100%;
+}
+ul, a{
+  text-decoration: none;
+  list-style-type: none;
+  color: black; 
+}
+ul{
+  padding: 0; 
+  margin: 0 0 0 3rem;
+}
+h1{
+  color: #AAD5DF;
+}
+.none{
+  display: none;
+}
+.center{
+  text-align:  center;
+}
+/* ==================================================
+ *#MB VIEW
+ * ==================================================
+*/
+/*HEADER VINTAGE*/
+.header-logo{/*taille logo header*/
+ height: 7rem;
+}
+.search{
+  margin-top: 0rem;/*stick searchbar to vintage logo*/
+  text-align: center;
+  height: 5rem;
+}
+/*submit button*/
+.ok{
+  background-color: #AAD5DF;
+  color: #fff;
+  height: 3rem;
+}
+.searchbar{
+  height: 3rem;
+  width: 15rem;
+}
+.ariane{
+  background-color: #AAD5DF;
+  text-transform:uppercase;
+}
+.ariane>label{
+  color: #fff;
+  padding-left: 25%;
+  line-height:5rem;
+}
+/* ==================================================
+ *#MD VIEW
+ * ==================================================
+*/
+@media screen and (min-width: 600px){
+  .none{ /*Show hidden item*/
+    display: unset;
+  }
+  .search{
+    margin-top: 2rem;
+  }
+  .push{/*space between logo and searchbar*/
+    margin-left: auto;
+  }
+  /*CENTER CONTENT + CONTAINER SIZE*/ 
+  .global{ 
+    max-width: 70rem;
+    margin: auto;
+  }
+  article.item-simple{
+    font-weight:900;
+  }
+  .item-simple:hover{/* vintage menu*/
+     border-bottom: 2px solid black;
+  }
+  .center{
+  text-align:center;
+  } 
+    /* ==================================================
+   * #CONTAINER DISPLAY
+   * ==================================================
+  */
+  /*display all class 'container-' in flex*/
+  .container-12{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container-12 > * {
+    flex: 0 0 ;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+   /* Container-item size*/
+  .container-12>.item-simple {/*Vintage logo menu*/
+    flex: calc( 100% * 1/ 12  );
+  } 
+  .container-12 > .item-2c{/*detail chair*/
+    flex-basis: calc(100% * 2 / 12 - 2rem);
+  }
+  .container-12 > .item-5c{/*Logo vintage & searchbar*/
+    flex-basis: calc(100% * 5 / 12 - 2rem);
+  }
+  .container-12 > .item-6c{/*header vintage, meubles articles-md, home corner img*/
+    flex-basis: calc(100% * 6 /12 - 4rem);
+    position:relative;/* p Lire la suite absolute*/
+  }
+  /*ACCUEIL CORNER UL*/
+  .item-6c ul{
+    margin:0/* reset margin*/
+  }
+  .container-12 > .item-8c{
+    flex-basis: calc(100% * 8 / 12 - 2rem) ;
+  }
+  .container-12 > .item-10c{/*detail chair*/
+    flex-basis: calc(100% * 10 / 12 - 2rem) ;
+  }
+  .container-12 > .item-12c{/*detail chair*/
+    flex-basis: calc(100% * 12 / 12 - 3rem) ;
+  }
+  .container-left{/*catalogue menu left*/
+     flex-direction: column;
+  }
+}
+     /* ==================================================
+   * #LG VIEW
+   * ==================================================
+  */
+   
+@media screen and (min-width: 1024px) { 
+  /*CENTER CONTENT */
+  .global{
+    max-width: 100rem;
+    margin: auto;
+  }
+  /* ==================================================
+   * #VINTAGE LOGO & SEARCHBAR
+   * ==================================================
+  */
+  .header-logo{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .search{
+    text-align: right;
+  }
+  .searchbar,.ok{
+    height: 4rem;
+  }
+  .container-12 > .item-4c{/*header vintage meubles ariticles-lg*/
+    flex-basis: calc(100% * 4 /12 - 3rem)  ;
+  }
+}

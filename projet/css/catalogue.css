@@ -1,0 +1,86 @@
+/* ==================================================
+ * #MOBILE VIEW
+ * ==================================================
+*/
+
+/*NAV MENU*/
+.t-item{
+  padding-bottom: 1rem;
+  font-weight: bold;
+  color: black;
+  font-weight: 900;
+  /*border set*/
+  border-bottom: 1px solid #AAD5DF;
+  width: 90%;
+}
+/*SECTION ARTICLES*/
+.article-mobile{/*text display*/
+  margin: 1rem;
+  text-align: justify;
+}
+.item>article{
+  background-color: #AAD5DF;
+} 
+.prix{
+  color: #AAD5DF;
+}
+.item{
+  margin : 4rem 0; /*Margin Between items*/
+}
+/* ==================================================
+ * #MD VIEW
+ * ==================================================
+*/
+@media screen and (min-width: 600px) { 
+  .article-mobile{
+    text-align: left;
+   }
+  /*NAV MENU*/
+  .center{
+    text-align: center;
+  }
+  /* ==================================================
+   * #Main SECTION POSITION
+   * ==================================================
+  */
+  .principal>.container-right{/*catalogue item disposition*/
+     flex: 1 calc( 100% * 8 / 12  - 4rem);
+  }
+  .principal > .container-left{/*Aside menu grow*/
+      flex: 2;
+      margin: 1rem;
+  }
+  .container-left> * {
+    margin: 0rem;/*reset aside menu margin*/
+  }
+  /*Container left - right hover effect*/
+  .u-item:hover{
+    background-color: #AAD5DF;
+    width: fit-content;
+  }
+  .t-item:hover{
+    background-color: #AAD5DF;
+  }
+  .container-right>*:hover{
+    border: 1px solid #cacbce;
+  }
+   .chaise .prix{
+   color: white;
+  }
+  .chaise:hover .prix{
+    -webkit-transition: width 4s, padding-left 4s, background-color 1s;
+    padding-left: 13rem;
+    background-color: #AAD5DF;
+    color: white;
+    }
+ }   
+ /* ==================================================
+ * #LG VIEW
+ * ==================================================
+*/
+ @media screen and (min-width: 1024px) { 
+  .container-left> * {
+    margin-left: 5rem;/* aside menu margin*/
+  }
+}
+ 

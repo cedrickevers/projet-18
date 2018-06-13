@@ -1,0 +1,328 @@
+/* ==================================================
+ * #STYLES  GENERAL
+ * ==================================================
+*/
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  color: #000;
+  background-color: #FFF;
+  margin: 0px;
+  padding: 0px;
+  font: 1.4rem Arial, Verdana, Helvetica, sans-serif;
+}
+img{
+  width: 100%;
+}
+ul, a{
+  text-decoration: none;
+  list-style-type: none;
+  color: black; 
+}
+ul{
+  padding: 0; 
+  margin: 0 0 0 3rem;
+}
+h1{
+  color: #AAD5DF;
+}
+.none{
+  display: none;
+}
+.center{
+  text-align:  center;
+}
+    
+/* ==================================================
+ *#MB VIEW
+ * ==================================================
+*/
+
+/*HEADER VINTAGE*/
+.header-logo{/*taille logo header*/
+ height: 7rem;
+}
+.search{
+  margin-top: 0rem;/*stick searchbar to vintage logo*/
+  text-align: center;
+  height: 5rem;
+}
+/*submit button*/
+.ok{
+  background-color: #AAD5DF;
+  color: #fff;
+  height: 3rem;
+}
+.searchbar{
+  height: 3rem;
+  width: 15rem;
+}
+.ariane{
+  background-color: #AAD5DF;
+   
+ 
+  text-transform:uppercase;
+
+}
+.ariane>label{
+  color: #fff;
+  padding-left: 25%;
+  line-height:5rem;
+}
+ 
+
+
+a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s  ;
+}
+
+a:hover
+{
+  color: tomato;
+}
+
+.menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+.menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+.menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+.menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+.menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+.menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+.menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+.menu article
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+.menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+/* ==================================================
+ *#MD VIEW
+ * ==================================================
+*/
+@media screen and (min-width: 600px){
+  .none{ /*Show hidden item*/
+    display: unset;
+  }
+ 
+      /*SEARCHBAR POSITION*/
+  .push{/*space between logo and searchbar*/
+    margin-left: auto;
+  } 
+  .search{
+    text-align: right;
+    margin: 2rem 1rem 1rem 1rem;
+      }
+  /*CENTER CONTENT + CONTAINER SIZE*/ 
+  .global{ 
+    max-width: 70rem;
+    margin: auto;
+  }
+  article.item-simple{
+    font-weight:900;
+
+  }
+
+  .item-simple:hover{/* vintage menu*/
+     border-bottom: 2px solid black;
+  }
+  .center{
+  text-align:center;
+  } 
+    /* ==================================================
+   * #CONTAINER DISPLAY
+   * ==================================================
+  */
+
+  /*display all class 'container-' in flex*/
+  .container-12{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+ 
+  .container-12 > * {
+    flex: 0 0 ;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+   /* Container-item size*/
+  .container-12>.item-simple {/*Vintage logo menu*/
+    flex: calc( 100% * 1/ 12  );
+  } 
+  .container-12 > .item-2c{/*detail chair*/
+    flex-basis: calc(100% * 2 / 12 - 2rem);
+  }
+  .container-12 > .item-5c{/*Logo vintage & searchbar*/
+    flex-basis: calc(100% * 5 / 12 - 2rem);
+  }
+  .container-12 > .item-6c{/*header vintage, meubles articles-md, home corner img*/
+    flex-basis: calc(100% * 6 /12 - 4rem);
+    position:relative;/* p Lire la suite absolute*/
+  }
+  /*ACCUEIL CORNER UL*/
+  .item-6c ul{
+    margin:0/* reset margin*/
+  }
+  .container-12 > .item-8c{
+    flex-basis: calc(100% * 8 / 12 - 2rem) ;
+   }
+  .container-12 > .item-10c{/*detail chair*/
+    flex-basis: calc(100% * 10 / 12 - 2rem) ;
+   }
+  .container-12 > .item-12c{/*detail chair*/
+    flex-basis: calc(100% * 12 / 12 - 3rem) ;
+   }
+  .container-left{/*catalogue menu left*/
+     flex-direction: column;
+   }
+}
+     /* ==================================================
+   * #LG VIEW
+   * ==================================================
+  */
+   
+@media screen and (min-width: 1024px) { 
+  /*CENTER CONTENT */
+  .global{
+    max-width: 100rem;
+    margin: auto;
+  }
+  /* ==================================================
+   * #VINTAGE LOGO & SEARCHBAR
+   * ==================================================
+  */
+  .header-logo{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .search{
+    text-align: right;
+  }
+  .searchbar,.ok{
+    height: 4rem;
+  }
+  .container-12 > .item-4c{/*header vintage meubles ariticles-lg*/
+    flex-basis: calc(100% * 4 /12 - 3rem)  ;
+  }
+}
