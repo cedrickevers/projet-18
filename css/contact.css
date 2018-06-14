@@ -7,7 +7,7 @@
 main.global > *{
   background-color: #Aaddff;
   text-align: center; /*text align for MB & MB*/ 
-  margin: .1rem;
+
 }
 .item-full{ /*h1 bgc -a view*/
   flex: 1  100%;
