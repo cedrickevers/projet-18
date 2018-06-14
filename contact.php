@@ -10,7 +10,7 @@
     <!-- INVOCATION DU MENU PRINCIPALE -->
        <?php include('menu.html'); ?>  
       <div class="ariane">
-        <label>vous êtes ici:</label><a href="index.php" >&nbsp; &gt; &nbsp; accueil</a><a href="Contact.php"> &nbsp; &gt; &nbsp; contact</a> 
+        <label>vous êtes ici:</label><a href="index.php" >&nbsp; &gt; &nbsp; accueil</a><a href="contact.php"> &nbsp; &gt; &nbsp; contact</a> 
       </div> 
     <main class="container-12 global">
       <div class="item-full">
