@@ -7,7 +7,7 @@
 main.global > *{
   background-color: #Aaddff;
   text-align: center; /*text align for MB & MB*/ 
-  margin: 1rem;
+  margin: .1rem;
 }
 .item-full{ /*h1 bgc -a view*/
   flex: 1  100%;
@@ -60,7 +60,6 @@ main.global > *{
   form p{
     text-align: end;
     margin-right: 25%;
-    margin: 0;
     padding: 0
   }
   p input{

@@ -4,7 +4,7 @@
 }
 li{
   display: inline-block;
-  margin: 1rem;
+  margin: .1rem;
 }
 .item-6c ul li::before{/*corner li*/
   content: '-';
