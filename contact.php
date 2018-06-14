@@ -8,10 +8,10 @@
   </head>
   <body>
     <!-- INVOCATION DU MENU PRINCIPALE -->
-        <?php include('menu.html'); ?>  
+       <?php include('menu.html'); ?>  
       <div class="ariane">
-      <label>vous êtes ici: </label><span> Contact</span>
-    </div> 
+        <label>vous êtes ici:</label><span> <a href="index.php" >&nbsp; &gt; &nbsp; accueil</span>  </label><span> <a href="Contact.php"> &nbsp; &gt; &nbsp; contact</a></span>
+      </div> 
     <main class="container-12 global">
       <div class="item-full">
         <article id="map"><!-- container google map -->

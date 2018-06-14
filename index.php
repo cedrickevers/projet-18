@@ -8,9 +8,8 @@
 	<body>		
 		<!-- INVOCATION DU MENU PRINCIPALE -->
 		<?php include('menu.html'); ?>
-    <div class="ariane"><label>vous êtes ici: </label><span> Accueil</span></div>
+		<div class="ariane"><label>vous êtes ici: &nbsp; &gt; &nbsp; </label><span><a href="index.php"> Accueil		</a></span></div>
 		<section class="slider">
-			
 		</section>
 		<main class= 'global'>
 			<section class="container-12">

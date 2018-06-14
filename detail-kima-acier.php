@@ -10,8 +10,8 @@
     <!-- INVOCATION DU MENU PRINCIPALE -->
     <?php include('menu.html'); ?>
     <div class="ariane">
-      <label>vous êtes ici: </label><span> Kima acier </span>
-    </div> 
+      <label>vous êtes ici:</label><span> <a href="index.php" >&nbsp; &gt; &nbsp; accueil</span> </label><span> <a href="catalogue.php"> &nbsp; &gt; &nbsp; catalogue</a></span></label><span> <a href="detail-Kima-acier.php"> &nbsp; &gt; &nbsp; Kima acier</a></span>
+     </div>     </div> 
 		<main class="global">
 			<section class ="item-detail container-12">
 				<div>	

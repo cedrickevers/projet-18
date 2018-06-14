@@ -61,12 +61,11 @@ h1{
 }
 .ariane{
   background-color: #AAD5DF;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 .ariane>label{
   color: #fff;
-  padding-left: 25%;
-  line-height:5rem;
+  line-height: 5rem;
 }
 /* ==================================================
  *#MD VIEW
@@ -88,14 +87,17 @@ h1{
     margin: auto;
   }
   article.item-simple{
-    font-weight:900;
+    font-weight: 900;
   }
   .item-simple:hover{/* vintage menu*/
      border-bottom: 2px solid black;
   }
   .center{
-  text-align:center;
+  text-align: center;
   } 
+  .ariane>label{
+    padding-left: 25%;
+  }
     /* ==================================================
    * #CONTAINER DISPLAY
    * ==================================================
@@ -123,11 +125,11 @@ h1{
   }
   .container-12 > .item-6c{/*header vintage, meubles articles-md, home corner img*/
     flex-basis: calc(100% * 6 /12 - 4rem);
-    position:relative;/* p Lire la suite absolute*/
+    position: relative;/*  ref for p Lire la suite absolute*/
   }
   /*ACCUEIL CORNER UL*/
   .item-6c ul{
-    margin:0/* reset margin*/
+    margin: 0/* reset margin*/
   }
   .container-12 > .item-8c{
     flex-basis: calc(100% * 8 / 12 - 2rem) ;
@@ -164,7 +166,7 @@ h1{
   .search{
     text-align: right;
   }
-  .searchbar,.ok{
+  .searchbar, .ok{
     height: 4rem;
   }
   .container-12 > .item-4c{/*header vintage meubles ariticles-lg*/

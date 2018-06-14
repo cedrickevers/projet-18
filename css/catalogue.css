@@ -23,8 +23,8 @@
 } 
 .prix{
  color: white;
-  background-color:#AAD5DF;
-  text-align:right;
+  background-color: #AAD5DF;
+  text-align: right;
 }
 .item{
   margin : 4rem 0; /*Margin Between items*/
@@ -69,7 +69,7 @@
 
   .prix{
  background-color:inherit;
-  text-align:inherit;
+  text-align: inherit;
 }
  
   .chaise:hover .prix{
@@ -84,7 +84,7 @@
  * ==================================================
 */
  @media screen and (min-width: 1024px) { 
-  .container-left> * {
+  .container-left > * {
     margin-left: 5rem;/* aside menu margin*/
   }
 }

@@ -9,9 +9,9 @@
   <body>
     <!-- INVOCATION DU MENU PRINCIPALE -->
     <?php include('menu.html'); ?>
-    <div class="ariane">
-      <label>vous êtes ici: </label><span> Catalogue</span>
-    </div> 
+      <div class="ariane">
+        <label>vous êtes ici:</label><span> <a href="index.php" >&nbsp; &gt; &nbsp; accueil</span>  </label><span> <a href="Catalogue.php"> &nbsp; &gt; &nbsp; catalogue</a></span>
+      </div> 
     <main class="global">
     <section class="container-12 principal ">
         <nav class=" container-left container-12">

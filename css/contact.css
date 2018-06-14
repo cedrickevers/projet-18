@@ -15,7 +15,7 @@ main.global > *{
 }
  form p{
    text-align: end;
-   margin-right: 25%;
+   margin-right: 14%;
 }
   .ok{/*  re adjust header ok to contact*/
     width: 4rem;
@@ -59,7 +59,7 @@ main.global > *{
   }
   form p{
     text-align: end;
-    margin-right: 25%
+    margin-right: 25%;
     margin: 0;
     padding: 0
   }
