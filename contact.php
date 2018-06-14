@@ -10,7 +10,7 @@
     <!-- INVOCATION DU MENU PRINCIPALE -->
        <?php include('menu.html'); ?>  
       <div class="ariane">
-        <label>vous êtes ici:</label><span> <a href="index.php" >&nbsp; &gt; &nbsp; accueil</span>  </label><span> <a href="Contact.php"> &nbsp; &gt; &nbsp; contact</a></span>
+        <label>vous êtes ici:</label><a href="index.php" >&nbsp; &gt; &nbsp; accueil</a><a href="Contact.php"> &nbsp; &gt; &nbsp; contact</a> 
       </div> 
     <main class="container-12 global">
       <div class="item-full">
@@ -71,7 +71,7 @@
              <input type="checkbox" name="box1" id="box1" checked="checked" > <label for="box1">je désire recevoir la newsletters:</label></span>
             
             <div>
-               <input class="envoyer"type="submit"  value="Envoyer" />
+               <input class="envoyer" type="submit"  value="Envoyer" />
               </div>
            </form>
           </div>

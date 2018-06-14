@@ -2,13 +2,15 @@
 <html>
 	<head>
 		<title>Accueil</title>
+		<meta charset="utf-8">
 		<link rel = "stylesheet" type="text/css" href = "css/general.css">
 		<link rel = "stylesheet" type="text/css" href = "css/index.css">
 	</head>
 	<body>		
 		<!-- INVOCATION DU MENU PRINCIPALE -->
 		<?php include('menu.html'); ?>
-		<div class="ariane"><label>vous êtes ici: &nbsp; &gt; &nbsp; </label><span><a href="index.php"> Accueil		</a></span></div>
+		<div class="ariane"><label>vous êtes ici: &nbsp; &gt; &nbsp; </label><a href="index.php"> Accueil</a>
+		</div>
 		<section class="slider">
 		</section>
 		<main class= 'global'>
