@@ -32,10 +32,10 @@
 					<article>
 						<p class="prix">Prix: 120 €</p>
 						<h1>Sépcification</h1>
-				 		<p>Hauteur d'assise:70 cm</p> 
-				 		<p>Hauteur totale 100 cm</p>
-						<p>Largeur:45 cm </p>
-						<p>Profondeur :51 cm</p>  
+				 		<p>Hauteur d'assise: 70 cm</p> 
+				 		<p>Hauteur totale: 100 cm</p>
+						<p>Largeur: 45 cm </p>
+						<p>Profondeur: 51 cm</p>  
 					</article>
 				</div>
 			</section>

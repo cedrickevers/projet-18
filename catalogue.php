@@ -45,11 +45,11 @@
         <!--  main block articles -->
         <div class=" article-mobile container-12 container-right">
           <div class=" item-6c item-4c chaise  ">
-            <a href="detail-bombay.php">
+            <a href="detail-Bombay.php">
               <img class=" none" src="content/CHR-59.jpg" alt="2" />
               <h1>Bombay</h1>
               <p> Chaise de bar industrielle bombay. Le siège en cuir n'est pas complètement fini, donnant aux chaises un joli look vintage! Un design cool que vous pouvez combiner avec par exemple une table en bois.  <br/></p>
-              <p class="prix"> prix 89 €</p>
+              <p class="prix"> prix 139 €</p>
             </a>
           </div> 
             <div class=" item-6c item-4c chaise">
@@ -57,7 +57,7 @@
               <img class="none" src="content/IMG_5792_275x275.jpg" alt="" />
               <h1>Kima Acier</h1>
               <p> Une belle chaise de fil d'acier avec un design lisse et solide. Sans pareil et un vrai eye-attachant à votre table.<br/></p>
-              <p class="prix"> prix 89 €</p>
+              <p class="prix"> prix 120 €</p>
             </a>
           </div>
           <div class=" item-6c item-4c chaise ">
@@ -73,7 +73,7 @@
               <img class="none" src="content/IMG_3291_275x275.jpg" alt="" />
               <h1> DSW Red</h1>
               <p>Pour ceux qui veulent être à l'aise et à la mode. Avec le siège DSW Style, vous êtes bon!  Une chaise desin, facile et confortable qui, sans le vouloir attirer l'attention, s'adapte.</p>
-              <p class="prix"> prix 89 €</p>
+              <p class="prix"> prix 99 €</p>
             </a>
           </div>
           <div class=" item-6c item-4c chaise">
@@ -81,7 +81,7 @@
               <img class="section-img none" src="content/IMG_5793_275x275.jpg" alt="" />
               <h1>V bar</h1>
               <p>Une belle chaise de barre en acier avec un design lisse et solide. Sans pareil et un vrai eyecactcher à votre table de barre!</p>
-              <p class="prix"> prix 89 €</p>
+              <p class="prix"> prix 110 €</p>
             </a>
           </div>
           <div class=" item-6c item-4c chaise">
@@ -96,7 +96,7 @@
               <a href="$"><img class="section-img none" src="content/IMG_1898_275x275.jpg" alt="" />
               <h1>Tulip</h1>
               <p>Cette chaise design est connue pour son siège en forme de tulipe spécifique.L'habitacle magnifiquement formé est équipé d'un coussin mou et donc très confortable.LE cockpit est fait de</p>
-              <p class="prix"> prix 89 €</p>
+              <p class="prix"> prix 115 €</p>
             </a>
           </div>
           <div class=" item-6c item-4c chaise">
@@ -104,7 +104,7 @@
                 <img class="section-img none" src="content/IMG_86963_275x275.jpg" alt="" />
                 <h1>Bertola</h1>
                 <p>Chaise de salle à manger Bartoza noire. Chaise en fil d'un design solide et élégant.</p>
-                <p class="prix"> prix 89 €</p>
+                <p class="prix"> prix 90 €</p>
               </a>
             </div>                  
           <div class="unset"></div>           

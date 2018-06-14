@@ -32,10 +32,10 @@
 					<article>
 						<p class="prix">Prix: 139 €</p>
 						<h3>Sépcification</h3>
-				 		<p>Hauteur d'assise:75 cm</p> 
-				 		<p>Hauteur totale 105 cm</p>
+				 		<p>Hauteur d'assise: 75 cm</p> 
+				 		<p>Hauteur totale: 105 cm</p>
 						<p>Largeur: 50 cm </p>
-						<p>Profondeur :53 cm</p>  
+						<p>Profondeur: 53 cm</p>  
 					</article>
 				</div>
 			</section>
