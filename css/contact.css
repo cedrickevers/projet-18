@@ -30,7 +30,7 @@ main.global > *{
    * ==================================================
   */
   .container-12 > .item-4c{
-    flex-basis: calc(100% * 4 / 12 - 2rem) ;
+    flex-basis: calc(100% * 4 / 12 - 2rem);
   }
   .global{/*Ajust global container to map*/
     flex-direction: column;
@@ -60,7 +60,7 @@ main.global > *{
   form p{
     text-align: end;
     margin-right: 25%;
-    padding: 0
+    padding: 0;
   }
   p input{
     width: 70%;
